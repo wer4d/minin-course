@@ -1,0 +1,24 @@
+.border-1 {
+/* border-width: 2px;
+border-style: solid;
+border-color: red; */
+
+border: 2px solid red;
+border-style: dashed;
+border-radius: 5px;
+
+}
+
+.border-2 {
+border-bottom: 2px solid blue ;
+border-right: 2px solid blue ;
+border-bottom-right-radius: 10px ;
+
+}
+
+.border-3 {
+border-left: 6px solid red;
+background: lightsalmon;
+padding-left: 10px;
+color: white;
+}

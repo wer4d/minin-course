@@ -1,0 +1,76 @@
+.list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.list li {
+
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.table{
+    width: 100%;
+    border: 1px solid black
+}
+
+.table td {
+text-align: center;
+padding-bottom: 5px;
+
+
+}
+
+.table td:hover {
+    background-color: gray;
+    color:blue;
+}
+
+/* .table tr:nth-child(even) {
+
+    background: rgb(147, 73, 73);
+} */
+
+.table td:nth-child(2) {
+
+    background: rgb(147, 73, 73);
+} 
+
+.navbar {
+    background: lightcoral;
+    /* padding: 10px 20px; */
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 10px;
+    padding: 10px;
+    
+}
+
+.navbar ul li :hover {
+    background: #eee7e7;
+        
+    
+
+}
+.navbar ul li :visited {
+    color: black;
+
+    
+
+}
